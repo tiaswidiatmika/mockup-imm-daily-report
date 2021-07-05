@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tailwind.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Amiko:wght@400;600&display=swap');
+        body {
+            font-family: 'Alegreya Sans', sans-serif;
+        }
+        #logo-letter {
+            font-family: 'Amiko', sans-serif;
+        }
+        #hero-letter {
+            font-family: 'Amiko', sans-serif;
+            font-weight: 600;
+            font-size: 64px;
+            text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+        }
+    </style> 
+</head>
+<!-- body color=
+content  -->
+<body class="">
+    <div class="outer-background bg-gray-300 w-full h-full flex justify-center">
+        <div class="main-page w-4/6 h-screen bg-gray-100 shadow-2xl rounded-lg mt-2 pt-10 px-20">
+            <nav 
+                class="pb-2 flex flex-row justify-between border-b filter drop-shadow-md"
+            >
+                <div class="flex flex-row space-x-5">
+                    <img
+                    src="asset/logo-small.svg"
+                    alt="logo-riksa4-small"
+                    height="59"
+                    width="59"
+                    class="block"/>
+                    <img 
+                        src="asset/logo-letter-DailyReport.svg"
+                        alt="logo-letter-DailyReport"
+                        height="24"
+                        width="111"
+                        class="block"/>
+                </div>
+                <div class="flex flex-row space-x-2 items-center">
+                    <!-- <span class="text-gray-600 flex flex-row"> -->
+                <a
+                    href="#"
+                    class="text-gray-600 self-center flex flex-row items-center">See Past Reports
+                    <!-- <img
+                        src="asset/chevron-down-solid.svg"
+                        alt="chevron-down"
+                        height="14"
+                        width="12"
+                        style="color:red"
+                        class="ml-1"/> -->
+                        <svg height="14" width="12" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="ml-1 svg-inline--fa fa-chevron-down fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
+                </a>
+                    <!-- </span> -->
+                    <a
+                    class="button-signin py-2 px-8 bg-blue-500 rounded-sm text-gray-100 text-xl items-center self-center"
+                    href="#">Sign In</a>
+                </div>
+            </nav>
+            <div class="relative">
+                <p class="absolute top-24 text-gray-600" id="hero-letter" style="z-index: 2;">
+                    Riksa IV <br>
+                    Daily Report <br>
+                    Collaboration <br>
+                </p>
+            </div>
+            <img src="asset/hero-image-collaboration-illustration.svg"
+                alt="collaboration-illustration" style="z-index: 1;" class="absolute right-72">
+        </div>  
+    </div>
+    
+</body>
+</html>
