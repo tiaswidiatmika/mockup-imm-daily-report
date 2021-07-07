@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Option Component</title>
+    <link rel="stylesheet" href="tailwind.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Amiko:wght@400;600&display=swap');
+        .option-component {
+            height: 99px;
+            width: 128px;
+            left: 780px;
+            top: 243px;
+            border-radius: 6px;
+            border: 2px solid #5E5E5E1A;
+        }
+
+        .option-lettering {
+            font-family: Amiko;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 13px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #5E5E5E;
+            /* box-shadow: 0px 4px 4px 0px #00000040; */
+            /* text-shadow: 0px 4px 4px #00000040; */
+        }
+
+        .option-lines {
+            border: 1px solid #5E5E5E1A;
+        }
+    </style>
+</head>
+<body>
+    <ul class="option-component flex flex-col pl-4 py-2 space-y-1 justify-center">
+        <li class="option-lettering">
+            Create Template
+            <hr class="option-lines">
+        </li>
+        <li class="option-lettering">
+            Create Post from Existing Template
+            <hr class="option-lines">
+        </li>
+        <li class="option-lettering">
+            Create Blank Post
+        </li>
+    </ul>
+</body>
+</html>

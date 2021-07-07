@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pick a Section</title>
+    <link rel="stylesheet" href="tailwind.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Amiko:wght@400;600&display=swap');
+
+        .medium-container {
+            height: 404px;
+            width: 460px;
+            padding: 30px 60px 30px 60px;
+            border-radius: 6px;
+            background: #FFFFFF;
+        }
+
+        .title {
+            font-family: Amiko;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 32px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #5E5E5E;
+        }
+
+        .sub-title {
+            font-family: Amiko;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #5E5E5E;
+            text-shadow: 0px 4px 4px 0px #00000040;
+        }
+
+        .summary {
+            font-family: Amiko;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 16px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #5E5E5E99;
+        }
+        .single-section-container {
+            border-radius: 6px;
+            position: relative;
+        }
+
+        .section-chevron-right {
+            position: absolute;
+            align-self: center;
+            left: 12rem;
+        }
+    </style>
+</head>
+<body class="bg-red-200">
+    <div class="medium-container">
+        <div class="flex flex-col space-y-6">
+            <p class="title">Pick a Section</p>
+            <div class="single-section-container flex flex-row items-center space-x-2 relative">
+                <img src="asset/arrival-icon.svg" alt="arrival icon small" srcset="">
+                <div>
+                    <p class="sub-title">Arrival</p>
+                    <p class="summary">Report for ...</p>
+                </div>
+                <img
+                    src="asset/chevron-left-solid.svg"
+                    alt="chevron left"
+                    srcset=""
+                    class="section-chevron-right">
+            </div>
+
+            <div class="single-section-container flex flex-row items-center space-x-2 relative">
+                <img src="asset/departure-icon.svg" alt="arrival icon small" srcset="">
+                <div>
+                    <p class="sub-title">Departure</p>
+                    <p class="summary">Report for ...</p>
+                </div>
+                <img
+                    src="asset/chevron-left-solid.svg"
+                    alt="chevron left"
+                    srcset=""
+                    class="section-chevron-right">
+            </div>
+
+            <div class="single-section-container flex flex-row items-center space-x-2 relative">
+                <img src="asset/formation-icon.svg" alt="arrival icon small" srcset="">
+                <div>
+                    <p class="sub-title">Formation</p>
+                    <p class="summary">Arrange Personnel</p>
+                </div>
+                <img
+                    src="asset/chevron-left-solid.svg"
+                    alt="chevron left"
+                    srcset=""
+                    class="section-chevron-right">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
